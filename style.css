@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+html{
+    font-size: 16px;
+}
+.logo{
+    font-family: 'Aleo';
+    font-weight: bold;
+    margin-left: 30px;
+    color: aliceblue;
+    padding-top: 10px;
+    float: left;
+    font-size: 1.5em;
+}
+header{
+    top: 0;
+    text-align: center;
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+}
+.navbar{
+    display: inline-block;
+    height: 70px;
+    width: 100%;
+    background-color: #2191FB;
+    vertical-align: middle;
+}
+.navbar .items{
+    display: flex;
+    float: right;
+    padding-right: 30px;
+    padding-top: 15px;
+    height: 100%;
+    justify-items: center;
+    list-style: none;
+    font-size: 1.2em;
+}
+.items a{   
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Aleo';
+}
+
+@media only screen and (max-width: 600px){
+    .logo{
+        float: none;
+    }
+    .navbar .items{
+        display: none;
+    }
+    .land h1{
+        display: flex;
+        height: 100px;
+    }
+    .team-img{
+        flex-direction: column;
+    }
+}
+.land{
+    display: flex;
+    height: 540px;
+    width: 100%;
+    margin-top: 70px;
+    background-image: url(/media/close-up-hand-taking-notes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.land h2{
+    margin: auto;
+    width: 100%;
+    background-color: rgba(33, 145, 251, 0.8);
+    padding: 50px;
+    /* border-radius: 10px; */
+    font-family: 'Aleo';
+    color: aliceblue;
+}
+.services{
+    margin-top: 40px;
+    font-family: 'Aleo';
+    color: #2191FB;
+    margin-bottom: 60px;
+}
+.services-img{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.services-img img{
+    width: 400px;
+}
+.services-img figcaption{
+    font-size: 1.2em;
+}
+.team{
+    background-color: #2191FB;
+    color: aliceblue;
+    padding-top: 40px;
+    font-family: 'Aleo';
+    padding-bottom: 40px;
+}
+.team-img{
+    padding-top: 20px;
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.team-img img{
+    width: 200px;
+}
+.team-img figcaption{
+    font-size: 1.2em;
+}
+.contact-info{
+    /* background-color: #2191FB; */
+    color: #2191FB;
+    padding-top: 40px;
+    font-family: 'Aleo';
+    /* padding-bottom: 40px; */
+    font-size: 1.2em;
+}
+
+.contact-info p{
+    padding-top: 100px;
+    text-align: left;
+    font-size: 0.75em;
+    padding-left: 10px;
+}
